@@ -1,0 +1,32 @@
+:root {
+    --blue: #003580;
+    --light: #fff;
+    --mx-width: 1024px;
+}
+
+
+.mail{
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    background-color: var(--blue);
+  align-items: center;
+  flex-direction: column;
+}
+/* .mail .button.is-info {
+    background-color: var(--blue) !important;
+    border-color: transparent;
+    color: #fff;
+} */
+
+.mailItem{
+    width: 100%;
+    width: var(--mx-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+

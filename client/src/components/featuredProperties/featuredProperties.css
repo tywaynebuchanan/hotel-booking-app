@@ -1,0 +1,26 @@
+.ratings{
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.featuredProp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* .featuredPropItem{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+} */
+
+.featuredPropImage{
+    width: 100%;
+    object-fit: cover;
+    height: 200px !important;
+}
+

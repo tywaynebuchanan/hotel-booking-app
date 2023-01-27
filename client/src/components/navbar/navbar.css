@@ -1,0 +1,35 @@
+:root{
+    --blue: #003580;
+    --light: #fff;
+    --mx-width: 1024px;
+}
+
+.navbar{
+    height: 70px;
+    background: var(--blue) !important;
+    display: flex;
+    justify-content: center;
+
+}
+.navContainer{
+    width: 100%;
+    max-width: var(--mx-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: var(--light); 
+    font-weight: 600;
+}
+
+.navbutton{
+    margin-left: 20px;
+}
+
+.button.is-light{
+    color: var(--blue) !important;
+}
+

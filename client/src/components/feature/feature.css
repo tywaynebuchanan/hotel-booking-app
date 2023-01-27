@@ -1,0 +1,42 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featuredItem{
+    position: relative;
+    color: blue;
+    border-radius: 10px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+img {
+    height: 400px !important;
+}
+
+
+
+/* .featuredItem .title{
+    color: #181818 !important;
+    margin-top: 10px !important;
+
+} */
+
+.featuredTitle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
